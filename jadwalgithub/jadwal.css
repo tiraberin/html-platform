@@ -1,0 +1,118 @@
+body {
+  background: white;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  position: relative;
+  width: 55%;
+  margin: auto;
+  color: #444;
+  background-color: rgb(247, 233, 219);
+}
+
+table th,
+table td {
+  border: 1px solid #dcd9d9;
+  padding: 7px 17px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+}
+
+table thead th {
+  background-color: #db5935;
+  color: #f5f5f5;
+  border-color: #eb6534;
+  text-transform: uppercase;
+}
+
+tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
+
+tr:hover td {
+  background-color: rgb(249, 255, 137);
+  border-color: #ffff0f;
+  transition: all 0.2s;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(112, 189, 152);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  color: rgb(42, 131, 115);
+  font-size: large;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover,
+.navbar a.active {
+  color: red;
+}
+
+.detel {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.detel h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span {
+  color: green;
+}
+
+.detel p {
+  color: #555;
+  line-height: 22px;
+}
+
+.detel a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
